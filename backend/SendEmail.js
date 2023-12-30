@@ -2,7 +2,7 @@ import nodemailer from "nodemailer";
 const sendMail = () => {
     var mainOptions = {
         from: "alok.yadav6000@gmail.com",
-        to:"alok.yadav8879@gmail.com",
+        to:"support@smartserv.io",
         subject: "change password",
         text: "change password",
       };
