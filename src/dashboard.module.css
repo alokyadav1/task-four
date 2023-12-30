@@ -1,0 +1,52 @@
+.container{
+    background-color: #E7E7E7;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 2rem;
+}
+
+.company{
+    margin: 10px 0;
+}
+
+.metrics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: white;
+    border-left: 10px solid #41BF99;
+    width: 20%;
+    box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.1);
+}
+
+.price{
+    font-size: 1.5rem;
+
+}
+
+.chartContainer{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.charts{
+    width: 45%;
+}
+
+.chart{
+    background-color: white;
+    margin: 10px auto;
+}
